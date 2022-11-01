@@ -1,0 +1,5 @@
+#测试环境的配置
+server:
+  port: 8846
+  servlet:
+    context-path: /mytest

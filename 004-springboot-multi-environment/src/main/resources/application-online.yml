@@ -1,0 +1,5 @@
+#上线环境的配置
+server:
+  port: 8845
+  servlet:
+    context-path: /myonline

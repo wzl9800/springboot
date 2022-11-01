@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<table border="2px" align="center">
+    <thead>
+        <tr>
+            <th>key</th>
+            <th>value</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th>百度</th>
+            <th th:text="${hh}">浏览百度页面</th>
+        </tr>
+        <tr>
+            <th>student对象</th>
+            <th th:text="${student.id}">id</th>
+        </tr>
+        <tr>
+            <th>student对象</th>
+            <th th:text="${student.name}">name</th>
+        </tr>
+        <tr>
+            <th>student对象</th>
+            <th th:text="${student.age}">age</th>
+        </tr>
+    </tbody>
+</table>
+</body>
+</html>

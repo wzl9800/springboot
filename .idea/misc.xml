@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JavaScriptSettings">
+    <option name="languageLevel" value="ES6" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/014-springboot-mapper/pom.xml" />
+        <option value="$PROJECT_DIR$/015-springboot-mapperscan/pom.xml" />
+        <option value="$PROJECT_DIR$/018-springboot-redis/pom.xml" />
+        <option value="$PROJECT_DIR$/006-springboot-jsp/pom.xml" />
+        <option value="$PROJECT_DIR$/001-pre-boot/pom.xml" />
+        <option value="$PROJECT_DIR$/019-springboot-interface/pom.xml" />
+        <option value="$PROJECT_DIR$/020-springboot-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/021-springboot-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/022-springboot-thymeleaf/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+</project>

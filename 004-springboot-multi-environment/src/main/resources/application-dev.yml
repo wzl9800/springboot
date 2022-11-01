@@ -1,0 +1,5 @@
+#开发环境的配置
+server:
+  servlet:
+    context-path: /mydev
+  port: 8888

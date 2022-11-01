@@ -1,0 +1,32 @@
+#端口号
+#访问路径
+server:
+  port: 80
+  servlet:
+    context-path: /myProvider
+
+#配置扫描的包
+dubbo:
+  scan:
+    base-packages: com.wzl.service
+#配置dubbo协议
+  #protocol:
+   # name: dubbo
+    #port: 20880
+
+#配置zookeeper注册中心
+  registry:
+    address: zookeeper://localhost:2181
+
+
+#用druid连接池连接数据库有关步骤spring:(服务器名字)
+spring:
+  datasource:
+    druid:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      url: jdbc:mysql://localhost:3306/test?useUnicode=true&characterEncoding=UTF-8&serverTimezone=GMT%2B8
+      username: root
+      password: 123
+  application:
+    name: 020-springboot-provider
+

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="001-pre-boot" />
+        <module name="002-springboot-one" />
+        <module name="003-springboot-environment" />
+        <module name="004-springboot-multi-environment" />
+        <module name="005-springboot-value" />
+        <module name="006-springboot-jsp" />
+        <module name="007-springboot-container" />
+        <module name="008-springboot-command" />
+        <module name="009-springboot-interceptor" />
+        <module name="010-springboot-servlet" />
+        <module name="011-springboot-filter1" />
+        <module name="012-springboot-characterencoding" />
+        <module name="013-springboot-characterencoding-properties" />
+        <module name="014-springboot-mapper" />
+        <module name="015-springboot-mapperscan" />
+        <module name="016-springboot-transactional" />
+        <module name="017-springboot-rest" />
+        <module name="018-springboot-redis" />
+        <module name="019-springboot-interface" />
+        <module name="020-springboot-provider" />
+        <module name="021-springboot-consumer" />
+        <module name="022-springboot-thymeleaf" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="001-pre-boot" target="1.8" />
+      <module name="002-springboot-one" target="1.8" />
+      <module name="003-springboot-environment" target="1.8" />
+      <module name="004-springboot-multi-environment" target="1.8" />
+      <module name="005-springboot-value" target="1.8" />
+      <module name="006-springboot-jsp" target="1.8" />
+      <module name="007-springboot-container" target="1.8" />
+      <module name="008-springboot-command" target="1.8" />
+      <module name="009-springboot-interceptor" target="1.8" />
+      <module name="010-springboot-servlet" target="1.8" />
+      <module name="011-springboot-filter1" target="1.8" />
+      <module name="012-springboot-characterencoding" target="1.8" />
+      <module name="013-springboot-characterencoding-properties" target="1.8" />
+      <module name="014-springboot-mapper" target="1.8" />
+      <module name="015-springboot-mapperscan" target="1.8" />
+      <module name="016-springboot-transactional" target="1.8" />
+      <module name="017-springboot-rest" target="1.8" />
+      <module name="018-springboot-redis" target="1.8" />
+      <module name="019-springboot-interface" target="1.8" />
+      <module name="020-springboot-provider" target="1.8" />
+      <module name="021-springboot-consumer" target="1.8" />
+      <module name="022-springboot-thymeleaf" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="002-springboot-one" options="-parameters" />
+      <module name="003-springboot-environment" options="-parameters" />
+      <module name="004-springboot-multi-environment" options="-parameters" />
+      <module name="005-springboot-value" options="-parameters" />
+      <module name="006-springboot-jsp" options="-parameters" />
+      <module name="007-springboot-container" options="-parameters" />
+      <module name="008-springboot-command" options="-parameters" />
+      <module name="009-springboot-interceptor" options="-parameters" />
+      <module name="010-springboot-servlet" options="-parameters" />
+      <module name="011-springboot-filter1" options="-parameters" />
+      <module name="012-springboot-characterencoding" options="-parameters" />
+      <module name="013-springboot-characterencoding-properties" options="-parameters" />
+      <module name="014-springboot-mapper" options="-parameters" />
+      <module name="015-springboot-mapperscan" options="-parameters" />
+      <module name="016-springboot-transactional" options="-parameters" />
+      <module name="017-springboot-rest" options="-parameters" />
+      <module name="018-springboot-redis" options="-parameters" />
+      <module name="020-springboot-provider" options="-parameters" />
+      <module name="021-springboot-consumer" options="-parameters" />
+      <module name="022-springboot-thymeleaf" options="-parameters" />
+    </option>
+  </component>
+</project>
